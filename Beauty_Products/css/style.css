@@ -153,6 +153,47 @@ a:hover {
   z-index: 40;
 }
 
+/*new-typeセクションの修飾*/
+.new-type {
+  display: flex;
+  align-items: center;
+  padding: 130px 0;
+}
+
+.new-type .text {
+  width: 50%;
+}
+
+.new-type .text .text-inner {
+  max-width: 520px;
+  padding: 0 60px 0 20px;
+  margin-left: auto;
+}
+
+.new-type .text .section-title {
+  font-family: 'YuMincho', 'Yu Mincho', serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.new-type .text .description {
+  font-size: 15px;
+  line-height: 1.8;
+  text-align: justify;
+  font-family: 'YuGothic', 'Yu Gothic', sans-serif;
+}
+
+.new-type .img {
+  width: 50%;
+}
+
+.new-type .img img {
+  height: 480px;
+  object-fit: cover;
+  object-position: left;
+}
 /* スマートフォン対応 */
 @media screen and (max-width: 768px) {
   #header .logo {
